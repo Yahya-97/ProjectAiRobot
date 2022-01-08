@@ -1,0 +1,90 @@
+.home {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+  }
+  .home__row {
+    display: flex;
+    z-index: 1;
+    margin-right: 5px;
+  }
+  .home__image {
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+
+
+#img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+
+}
+
+#Text {
+    padding: 50px;
+    position: absolute;
+    color: black;
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+#name {
+    padding: 10px;
+    color: black;
+    position: absolute;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#aboutH {
+    padding: 10px;
+    color: black;
+    position: absolute;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 100pt;
+}
+
+#aboutP {
+    padding: 50px;
+    position: absolute;
+    color: black;
+    font-size: xx-large;
+    font-weight: 400;
+    margin-top: 110pt;
+}
+
+h4 {
+    position: absolute;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 17cm;
+    padding-left: 50px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }

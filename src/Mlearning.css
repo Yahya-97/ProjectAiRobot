@@ -1,0 +1,113 @@
+.ML {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.button {
+  background-color: #5499b4; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid red;
+}
+
+.button2:hover {
+  background-color: red;
+  color: white;
+}
+#label-container div {
+  display: inline-flex;
+  font-size: x-large;
+  color: midnightblue;
+  padding-left: 50px;
+  border: 2px solid orange;
+  padding: 20px;
+}
+#text {
+  font-size: xx-large;
+  color: dimgrey;
+  margin: 50px;
+}
+#canvas {
+  padding: 50px;
+}
+#btnB {
+  margin-top: 5px;
+  width: 7cm;
+  height: 1.5cm;
+  font-size: xx-large;
+  background-color: maroon;
+  color: aliceblue;
+  cursor: pointer;
+  border-top-left-radius: 5cm;
+  border-bottom-right-radius: 5cm;
+  border-top: 5px solid black;
+  border-bottom: 5px solid orange;
+}
+.ult1 {
+  width: 5cm;
+  height: 0.7cm;
+  border-bottom-left-radius: 0.5cm;
+  border-top-right-radius: 0.5cm;
+  border-color: orange;
+  font-size: large;
+}
+.ult2 {
+  width: 5cm;
+  height: 0.7cm;
+  border-top-left-radius: 0.5cm;
+  border-bottom-right-radius: 0.5cm;
+  border-color: orangered;
+  font-size: large;
+}
+.h41 {
+  display: grid;
+  font-size: x-large;
+  color: black;
+  padding-left: 50px;
+  text-align: center;
+  margin-top: 10%;
+}
+.h42 {
+  display: grid;
+  font-size: x-large;
+  color: black;
+  padding-left: 80%;
+  text-align: center;
+  margin-top: 30%;
+}
+.btnS1 {
+  margin-top: 10px;
+  border-radius: 1cm;
+  border-color: firebrick;
+  cursor: pointer;
+}
+.btnS2 {
+  margin-top: 18px;
+  border-radius: 2cm;
+  cursor: pointer;
+  border-color: darkgreen;
+}
